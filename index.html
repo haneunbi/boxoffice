@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>박스오피스</title>
+
+    <link rel="stylesheet" href="./css/boxoffice.css">
+</head>
+
+<body>
+    <div class="movie_wrap">
+        <div class="movie_top">
+            <h1 class="movie_title"></h1>
+
+            <div class="select_range">
+                <button type="button" class="btn btn_sel_range daily">일별</button>
+                <button type="button" class="btn btn_sel_range weekly on">주말</button>
+            </div>
+
+            <div class="movie_range"></div>
+        </div>
+
+        <!-- 리스트 -->
+        <ul class="movie_list"></ul>
+    </div>
+
+    <!-- 팝업 -->
+    <div class="pop">
+        <div class="pop_bg"></div>
+        <div class="pop_wrap">
+
+        </div>
+    </div>
+
+    <!-- JS -->
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/boxoffice.js"></script>
+</body>
+
+</html>

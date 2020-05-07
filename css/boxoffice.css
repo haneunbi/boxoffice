@@ -1,0 +1,32 @@
+/* movie */
+body,input,textarea,select,button,table{font-size:15px;line-height:1;font-family:'Apple SD Gothic Neo',sans-serif}
+
+html,body{height:100%;color:#221f23;overflow:hidden}
+body{
+    margin:0;
+    background:#9796f0; /* fallback for old browsers */
+    background:-webkit-linear-gradient(45deg, #fbc7d4, #9796f0); /* Chrome 10-25, Safari 5.1-6 */
+    background:linear-gradient(45deg, #fbc7d4, #9796f0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color:#221f23;-webkit-backface-visibility:hidden;backface-visibility:hidden;
+}
+.movie_wrap{margin:5% auto;width:90%;height:90%;max-width:540px;background-color:#fff;overflow:hidden}
+@media screen and (min-width: 541px) { /* pc */
+    .movie_wrap{margin:20px auto}
+}
+.movie_top{overflow:hidden}
+.movie_title{height:50px;line-height:50px;color:#9796f0;text-align:center}
+.select_range{margin:0 18px 20px;text-align:right}
+.btn{display:inline-block;padding:6px 10px;font-size:inherit;line-height:1;text-align:center;border:0;border-radius:0;cursor:pointer}
+.btn+.btn{margin-left:8px}
+.btn_sel_range{background-color:#ddd;color:#fff}
+.btn_sel_range.on{background-color:#9796f0}
+.movie_range{margin:12px;height:15px;text-align:center}
+.movie_list{padding:0 18px;list-style:none;overflow-y:auto}
+.movie_item{margin:12px 0}
+.rank_new{margin-left:2px;color:#f64f59;font-size:11px;vertical-align:top}
+
+/* pop */
+.pop{display:none;z-index:900}
+.pop_bg{position:fixed;top:0;left:0;right:0;bottom:0;background-color:rgba(0,0,0,.7)}
+.pop_wrap{position:fixed;top:50%;left:50%;width:100%;max-width:320px;background-color:#fff;border-radius:8px;transform:translate(-50%,-50%)}
+.pop_txt{padding:16px;text-align:center}
